@@ -1,0 +1,25 @@
+[project]
+name = "snowpredict"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LiviaJonnatan", email = "jonnatanlivia@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4",
+    "matplotlib>=3.10,<4",
+    "numpy>=2.3,<3",
+    "pandas>=3,<4",
+    "pyarrow>=26.0.0",
+    "scikit-learn>=1.7,<2",
+    "seaborn>=0.13.2,<0.14",
+]
+
+[project.scripts]
+snowpredict = "snowpredict:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

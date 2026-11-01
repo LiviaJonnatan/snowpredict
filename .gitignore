@@ -5,3 +5,9 @@ __MACOSX/
 *.pyc
 .ipynb_checkpoints/
 .venv/
+.python-version
+data/raw/
+data/raw_manifest.csv
+data/weather_daily_wide.csv
+data/weather_daypart_long.parquet
+data/weather_hourly_long.parquet
