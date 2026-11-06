@@ -11,12 +11,30 @@ For each milestone, groups will present their progress in a 10-minute presentati
 
 ## Proposal
 
-*Below is from the original proposal, needs a redefinition for MS 2*
+*Proposal redefinition for MS 2*
 
 Data source: https://open-meteo.com/
 
 Problem Question:
-- Can machine-learning models predict overall skiing conditions at European ski resorts 30 days in advance more accurately than historical seasonal averages?
+- Can machine-learning models predict overall skiing conditions at Canadian ski resorts 30 days in advance more accurately than historical seasonal averages?
+
+## Repository Structure
+```
+snowpredict/
+├── README.md ← this file: project overview and milestones
+├── MS2.ipynb ← Milestone 2: get, parse, clean and explore the data
+├── data/
+│ ├── README.md ← how to get the data without calling the API
+│ ├── raw/ ← 462 raw JSON responses, one per resort/point/year (gitignored, ~390 MB)
+│ ├── raw_manifest.csv ← what was downloaded, when, and file sizes (gitignored)
+│ ├── weather_hourly_long.parquet ← one row per resort, point, hour (gitignored)
+│ ├── weather_daypart_long.parquet ← one row per resort, point, date, daypart (gitignored)
+│ ├── weather_daily_wide.csv ← one row per resort, point, date; feature table (gitignored)
+│ └── ski_season_clean.csv ← Dec–Apr rows only, with season, split and ski index (gitignored)
+├── pyproject.toml ← project metadata and dependencies (uv)
+├── requirements.txt ← same dependencies for pip users
+└── uv.lock
+```
 
 ## Milestone Details
 ### Milestone 2: Data Wrangling and Project Redefinition

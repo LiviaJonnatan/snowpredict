@@ -31,3 +31,4 @@ The parse produce three tables, each derived from the previous one. You should s
 | `data/weather_hourly_long.parquet` | hourly aggregate, re-aggregate later |
 | `data/weather_daypart_long.parquet` | daypart-level |
 | `data/weather_daily_wide.csv` | daily block + daypart summaries as columns |
+| `data/ski_season_clean.csv` | Dec-Apr rows, 2006-2026 seasons with `split` and `ski_index`. Built in section 3 of MS2 notebook. |
