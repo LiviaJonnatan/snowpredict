@@ -9,14 +9,16 @@
 
 For each milestone, groups will present their progress in a 10-minute presentation (with slides) to their assigned project TF.
 
-## Proposal
+> *Further each milestone details below.*
 
-*Proposal redefinition for MS 2*
+## Proposal
 
 Data source: https://open-meteo.com/
 
 Problem Question:
-- Can machine-learning models predict overall skiing conditions at Canadian ski resorts 30 days in advance more accurately than historical seasonal averages?
+- For any date in the ski season (Dec 1 - Apr 30), how well can the model trained on earlier winter sessions (historical data from 2006) predict ski-condition index 30 days ahead in Canadian ski resorts? Which variables are the main driver (snow depth, fresh snowfall, rain, etc.)? Is our model better than just using the historical day-of-season average?
+
+> *Full revised proposal is in the Google Drive.*
 
 ## Repository Structure
 ```
@@ -38,7 +40,13 @@ snowpredict/
 
 ## Milestone Details
 ### Milestone 2: Data Wrangling and Project Redefinition
-Groups will undertake the acquisition and preprocessing of data, paying careful attention to critical aspects such as addressing missing data, handling data imbalances, addressing data scaling issues, and identifying other potential data-related challenges to gain a comprehensive understanding of the dataset.  
+In this milestone your group gets the data, loads it, cleans it and learns what it contains, and then uses what it learned to state the project question precisely. By the end, your group should have a usable table in a Jupyter notebook and a project question that the data can answer. Exploratory data analysis and a baseline model come in Milestone 3, so the focus here is the data itself.
+
+**Deliverables:**
+- A 10 minute presentation to your project TF, followed by about 10 minutes of questions and discussion. Plan for 25 minutes in total.
+- The slides from your presentation, as a PDF.
+- The Jupyter notebook (.ipynb) that you used to get, load and clean the data.
+- A revised proposal of one to two pages, as a PDF.
 
 ### Milestone 3: EDA, Initial Modeling, and Pipeline Development 
 Following the verification and cleaning of the data, groups will engage in a well-motivated Exploratory Data Analysis (EDA). The objective is to interpret the EDA findings and use them to refine and solidify the project goals. This stage will also involve creating a clear navigation plan for the project's next steps. Groups will also establish an initial, straightforward model, referred to as the baseline model. This model serves as a benchmark for measuring progress in subsequent iterations. Additionally, students will propose a comprehensive pipeline for model training and testing. The pipeline encompasses data preprocessing, model implementation, and the evaluation of model outputs using a well-considered set of metrics. This preparation lays the foundation for more advanced model iterations.
