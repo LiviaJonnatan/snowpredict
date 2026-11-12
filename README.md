@@ -16,7 +16,7 @@ For each milestone, groups will present their progress in a 10-minute presentati
 Data source: https://open-meteo.com/
 
 Problem Question:
-- For any date in the ski season (Dec 1 - Apr 30), how well can the model trained on earlier winter sessions (historical data from 2006) predict ski-condition index 30 days ahead in Canadian ski resorts? Which variables are the main driver (snow depth, fresh snowfall, rain, etc.)? Is our model better than just using the historical day-of-season average?
+- For any date in the ski season (Dec 1 - Apr 30), how well can the model trained on earlier winter sessions (historical data from 2006) predict ski-condition index 7 days ahead in Canadian ski resorts? Which variables are the main driver (snow depth, fresh snowfall, rain, etc.)? Is our model better than just using the historical day-of-season average?
 
 > *Full revised proposal is in the Google Drive.*
 
