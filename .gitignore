@@ -12,3 +12,4 @@ data/weather_daily_wide.csv
 data/weather_daypart_long.parquet
 data/weather_hourly_long.parquet
 data/ski_season_clean.csv
+data/results/
